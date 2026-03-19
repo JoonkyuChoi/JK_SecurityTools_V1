@@ -18,6 +18,9 @@
 
 ### 자체 검증 화면
 패스워드 없이, 무기한 사용으로 주입된 자체검증 화면이다.</br>
+```bash
+$ jkd_security4_selfer1
+```
 ![자체 검증 화면](images/jkd_security4_selfer1.png)
 
 

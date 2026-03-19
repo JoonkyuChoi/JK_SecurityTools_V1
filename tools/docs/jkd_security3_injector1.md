@@ -19,14 +19,23 @@
 
 ### 자체 검증 화면
 패스워드 없이, 무기한 사용으로 설정된 홍보용 버전이다.</br>
+```bash
+$ jkd_security3_injector1
+```
 ![자체 검증 화면](images/jkd_security3_injector1.png)
 
 ### 대상 주입 화면
 패스워드 지정, 사용횟수 1회로 주입 시키는 장면이다.</br>
+```bash
+$ jkd_security3_injector1 selfer1_example.exe
+```
 ![대상 주입 화면](images/jkd_security3_injector1-tgtinj.png)
 
 ### 대상 검증 화면
 패스워드 지정, 사용횟수 1회로 주입된 대상을 검증한 화면이다.</br>
+```bash
+$ jkd_security3_injector1 selfer1_example.exe
+```
 ![대상 검증 화면](images/jkd_security3_injector1-tgtval.png)
 
 

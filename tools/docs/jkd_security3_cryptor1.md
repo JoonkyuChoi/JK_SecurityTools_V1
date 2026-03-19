@@ -19,6 +19,9 @@
 
 ### 자체 검증 화면
 패스워드 없이, 무기한 사용으로 설정된 홍보용 버전이다.</br>
+```bash
+$ jkd_security3_cryptor1
+```
 ![자체 검증 화면](images/jkd_security3_cryptor1.png)
 
 ### 대상 암호화 장면
