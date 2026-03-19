@@ -70,17 +70,18 @@ ECB   : 암호코드 블록 (ECF에 내장된 코드 블록)
 - [비활성 상태인 SCB를 내장한 자체검증 라이브러리](selfer1_example/README.md#jkd_security3_selfer1_corelib)</br>
   C/C++ 프로젝트를 생성하고, 이 라이브러리를 Import하여 빌드하면, 비활성 상태인 SCF 파일이 생성된다.</br>
   실행가능한 이진코드 파일들(dll, exe)에 SCB를 내장시킬 수 있는 라이브러리로써, MSVC2008 환경에서 `/MT`로 빌드되었다.
-- [지정 경로의 비활성 상태인 SCF를 활성화하는 주입툴](tools/docs/jkd_security3_injector1.md)
+- [지정 경로의 비활성 상태인 SCF를 활성화하는 주입툴](tools/docs/jkd_security3_injector1.md)</br>
+  [selfer1_example](selfer1_example/) 예제 프로젝트를 분석하여, 사용자가 추가적으로 개발한 SCF를 활성화 시킬 수 있다.
 - [지정 경로의 SCF에 대한, 상태를 확인하는 툴](tools/docs/jkd_security3_checker1.md)</br>
-  모든 SCF는 자체검증의 결과를 출력하지만, 조금 더 상세한 정보를 출력시킨다.
+  모든 SCF는 자체검증의 결과를 출력하지만, 대상의 남은 [사용:기간/횟수] 정보를 출력시킨다.
 
 ### 2. ECB/ECF 관련
-- 지정 경로의 파일을 암호화하거나 복호화하는 툴 (jkd_security3_cryptor1.exe)</br>
+- [지정 경로의 파일을 암호화하거나 복호화하는 툴](tools/docs/jkd_security3_cryptor1.md)</br>
   암호화된 파일의 확장자는 `jke`지만, 시각적인 표현일 뿐, 파일명을 변경하더라도 본래의 파일명과, 암호화 여부를 자동으로 인식한다.</br>
   암호화된 파일은 복호화를 진행하고, 그렇지 않은 파일은 암호화를 진행한다.
 
 ### 3. 해시
-- 지정 경로의 파일을 해시하는 툴 (jkd_security5_sha256.exe)</br>
+- [지정 경로의 파일을 해시하는 툴](tools/docs/jkd_security5_sha256.md)</br>
   여러 해시툴들 중에서, 가장 범용적인 SHA256 해시툴(jkd_security5_sha256.exe)을 공개한 것이다.</br>
   대용량 파일을 빠르게 해시하여, 결과 파일을 동일한 경로에 생성시킨다.
     ```
