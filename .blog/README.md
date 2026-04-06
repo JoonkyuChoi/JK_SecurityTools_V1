@@ -22,7 +22,7 @@ products
 - 개발언어
   > C/C++/VC++
 - 데이터관리
-  > None
+  > File
 - 통신
   > None
 ```
